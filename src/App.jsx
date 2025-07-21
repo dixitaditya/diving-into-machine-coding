@@ -3,12 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import TicTacToe from "./tic-tac-toe"
+
+
+const Demo = {
+  TicTacToe
+}
+
+
 function App() {
-  const [count, setCount] = useState(0)
+ const Component = Demo.TicTacToe
 
   return (
     <>
-      hello
+      <Component/>
     </>
   )
 }
