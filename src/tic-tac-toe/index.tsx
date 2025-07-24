@@ -44,7 +44,9 @@ const TicTacToe = (props: TTicTacToe) => {
 
 const demo = () => {
     return (
-        <TicTacToe row={3} col={3}/>
+        <TicTacToe 
+        row={3} 
+        col={3}/>
     )
 }
 
