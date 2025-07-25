@@ -3,16 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import TicTacToe from "./tic-tac-toe"
+import TicTacToe from "./components/tic-tac-toe"
+import ReactReduxStoryBook from "./route/ReactReduxStoryBook"
 
 
 const Demo = {
-  TicTacToe
+  TicTacToe,
+  ReactReduxStoryBook
 }
 
 
 function App() {
- const Component = Demo.TicTacToe
+ const Component = Demo.ReactReduxStoryBook
 
   return (
     <>
