@@ -1,53 +1,32 @@
-/* === CSS Reset === */
+nav{
+  display: flex;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  border-bottom: 1px solid #aaa;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-html, body {
-  height: 100%;
-  font-family: system-ui, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  background-color: #fff;
-  color: #000;
+.link{
+  padding: 10px;
+}
+.link:hover{
+  background: pink;
 }
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
-
-input, button, textarea, select {
-  font: inherit;
-  color: inherit;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-.full-page-center{
-  height: 100vh;
+.page-center{
+  height: 90vh;
   width: 100vw;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #f1e6e6;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-width: 500px;
 }
